@@ -10,7 +10,7 @@
  */
 
 #import "NativePagesInHybridApp.h"
-#import "WLWebFrameworkInitResult.h"
+#import <IBMMobileFirstPlatformFoundationHybrid/IBMMobileFirstPlatformFoundationHybrid.h>
 #import "Cordova/CDVViewController.h"
 
 @implementation MyAppDelegate

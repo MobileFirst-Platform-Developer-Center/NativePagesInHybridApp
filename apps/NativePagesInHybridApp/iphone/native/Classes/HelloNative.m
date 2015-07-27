@@ -17,7 +17,7 @@
 //
 
 #import "HelloNative.h"
-#import "NativePage.h"
+#import <IBMMobileFirstPlatformFoundationHybrid/IBMMobileFirstPlatformFoundationHybrid.h>
 
 @implementation HelloNative
 

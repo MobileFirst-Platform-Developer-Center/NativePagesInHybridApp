@@ -10,7 +10,7 @@
     INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR OPERATION OF THE SAMPLE SOURCE CODE.
     IBM HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR MODIFICATIONS TO THE SAMPLE SOURCE CODE.
 
---><application xmlns="http://www.worklight.com/application-descriptor" id="NativePagesInHybridApp" platformVersion="7.0.0.00.20150227-0916">
+--><application xmlns="http://www.worklight.com/application-descriptor" id="NativePagesInHybridApp" platformVersion="7.1.0.00.20150725-0007">
     <displayName>NativePagesInHybridApp</displayName>
     <description>NativePagesInHybridApp</description>
     <author>

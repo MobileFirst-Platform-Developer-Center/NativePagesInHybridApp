@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B88F3A9B-A65E-4ABA-9217-73CEB3084B12</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NativePagesInHybridAppNativePagesInHybridAppIphone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1B6176E10D19CC722ED96CB721C2FF78D534A2FB</key>
+		<string>https://github.ibm.com/MFPSamples/NativePagesInHybridApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>apps/NativePagesInHybridApp/iphone/native/NativePagesInHybridAppNativePagesInHybridAppIphone.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1B6176E10D19CC722ED96CB721C2FF78D534A2FB</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.ibm.com/MFPSamples/NativePagesInHybridApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1B6176E10D19CC722ED96CB721C2FF78D534A2FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B6176E10D19CC722ED96CB721C2FF78D534A2FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NativePagesInHybridApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
