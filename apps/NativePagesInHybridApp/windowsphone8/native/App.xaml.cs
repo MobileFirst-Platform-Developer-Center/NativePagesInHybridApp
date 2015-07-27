@@ -1,3 +1,15 @@
+/*
+ *
+ COPYRIGHT LICENSE: This information contains sample code provided in source code form. You may copy, modify, and distribute
+ these sample programs in any form without payment to IBM® for the purposes of developing, using, marketing or distributing
+ application programs conforming to the application programming interface for the operating platform for which the sample code is written.
+ Notwithstanding anything to the contrary, IBM PROVIDES THE SAMPLE SOURCE CODE ON AN "AS IS" BASIS AND IBM DISCLAIMS ALL WARRANTIES,
+ EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY,
+ FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND ANY WARRANTY OR CONDITION OF NON-INFRINGEMENT. IBM SHALL NOT BE LIABLE FOR ANY DIRECT,
+ INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR OPERATION OF THE SAMPLE SOURCE CODE.
+ IBM HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS OR MODIFICATIONS TO THE SAMPLE SOURCE CODE.
+
+ */
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +41,7 @@ namespace NativePagesInHybridApp
         /// </summary>
         public App()
         {
-            // Global handler for uncaught exceptions. 
+            // Global handler for uncaught exceptions.
             UnhandledException += Application_UnhandledException;
 
             // Show graphics profiling information while debugging.
@@ -41,7 +53,7 @@ namespace NativePagesInHybridApp
                 // Show the areas of the app that are being redrawn in each frame.
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;
 
-                // Enable non-production analysis visualization mode, 
+                // Enable non-production analysis visualization mode,
                 // which shows areas of a page that are being GPU accelerated with a colored overlay.
                 //Application.Current.Host.Settings.EnableCacheVisualization = true;
             }
@@ -51,10 +63,10 @@ namespace NativePagesInHybridApp
 
             // Phone-specific initialization
             InitializePhoneApplication();
-            
+
             new WPNativeLib.Initializer();
             new HybridPluginInitializer.Initializer();//Hybrid plugin initializer from worklight-windowsphone8.dll
-            
+
             #if USE_JSONSTORE
             {
                 new JSONStoreWP8Lib.Initializer();
@@ -116,10 +128,10 @@ namespace NativePagesInHybridApp
         {
             if (phoneApplicationInitialized)
                 return;
-			
+
 			//extend the splash screen until the worklight/webview is loaded
             WL.getInstance().showSplashScreen();
-			
+
             // Create the frame but don't set it as RootVisual yet; this allows the splash
             // screen to remain active until the application is ready to render.
             RootFrame = new PhoneApplicationFrame();
